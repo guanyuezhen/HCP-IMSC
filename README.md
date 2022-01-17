@@ -9,7 +9,10 @@ This repo is the source code for the paper "High-order Correlation Preserved Inc
 ```matlab
 Matlab
 ```
+### 2. Downloading Graph Signal Processing Toolbox (GSPBox)
 
-### 2. Run demo
+https://github.com/epfl-lts2/gspbox
+
+### 3. Run demo
 
 Run demo.m.
