@@ -15,8 +15,8 @@ Framework of the proposed HCP-IMSC method. Multi-view affinity matrices $\{\math
 
 ### 2. Usage
 + Prepare the data:
-    - The natural imcomplete datas, including 3sources, bbc, bbcsport can be obtain in `.\Exp\Incomplete\`.
-    - To generate the incomplete views, we first randomly select $n_p$ samples and set them as paired ones which are observed in all views. For the rest $n-n_p$ samples, a random matrix $\mathbf{M} = [\mathbf{m}_1, \mathbf{m}_2,..., \mathbf{m}_(n-n_p)] \in \{0,1\}^{(n-n_p)\times V}, 0<\sum_{v=1}^V \mathbf{m}_{iv} <V$ is generated. Then $m_{iv} = 1$, $m_{jw} = 0$ are used to indicate that the $i$-th sample is observed in $v$-th view and $j$-th sample is missing in $w$-th view, respectively. The code can be find in `.\Exp\Incomplete\randomly_generate_partial_data.m`.
+    - The natural imcomplete datas, including 3sources, bbc, bbcsport can be obtained in `.\Exp\Incomplete\`.
+    - To generate the incomplete views, we first randomly select $n_p$ samples and set them as paired ones which are observed in all views. For the rest $n-n_p$ samples, a random matrix $\mathbf{M} = [\mathbf{m}_1, \mathbf{m}_2,..., \mathbf{m}_(n-n_p)] \in \{0,1\}^{(n-n_p)\times V}, 0<\sum_{v=1}^V \mathbf{m}_{iv} <V$ is generated. Then $m_{iv} = 1$, $m_{jw} = 0$ are used to indicate that the $i$-th sample is observed in $v$-th view and $j$-th sample is missing in $w$-th view, respectively. The code can be found in `.\Exp\Incomplete\randomly_generate_partial_data.m`.
 
 + Prerequisites for Matlab:
     - Downloade graph signal processing toolbox [GSPBox](https://github.com/epfl-lts2/gspbox)
