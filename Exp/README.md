@@ -12,14 +12,4 @@
 - UEAF: Wen, J., Zhang, Z., Xu, Y., Zhang, B., Fei, L., & Liu, H. (2019). Unified embedding alignment with missing views inferring for incomplete multi-view clustering. AAAI Conference on Artificial Intelligence, 33(01): 5393-5400.
 - V3H: Fang, X., Hu, Y., Zhou, P., & Wu, D. O. (2021). V$^3$H: View Variation and View Heredity for Incomplete Multiview Clustering. IEEE Transactions on Artificial Intelligence, 1(3), 233–247. 
 
-## Generating Partial Multi-view Data
-
-- ./incomplete/randomlyGeneratePartialData.m
-
-## Printing Clustering Results
-- printResults.m
-- printResults2.m
-- plotLineACC.m
-
-results are intergated in ./allResults and ./Fig
 
